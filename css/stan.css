@@ -1,0 +1,42 @@
+html {
+    front-size: 53.5&;
+}
+body {
+    margin: 0;
+    front-family 'poppins'
+}
+.wrapper {
+    max-width: 1200px;
+    margin: o;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+nav ul {
+    list-style: none;
+    colour: aqua;
+    text-transform: uppercase;
+    front-size: 1.6rem;
+    position: relative;
+}
+nav ul li a.active:before {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 1px;
+    border-bottom: 2px solid blueviolet;
+    bottom: -6px;
+}
+main {
+    display: flex;
+    gap: 8em;
+    margin-top: 11em;
+    font-style: italic;
+}
+h2 {
+    front-family: 'playfair display';
+    front-weight: normal;
+    margin: 0;
+}
